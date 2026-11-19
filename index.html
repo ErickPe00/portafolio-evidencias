@@ -5,9 +5,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="Portafolio de Erick David Pérez Lozano. Desarrollo de software, sitios web, aplicaciones y videojuegos.">
-  <title>Erick David Pérez Lozano | Portafolio</title>
+  <meta name="description" content="Portafolio de Erick David Perez Lozano. Desarrollo de software, aplicaciones y videojuegos.">
+  <title>Erick David Perez Lozano | Portafolio</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Presentación sin fotografía */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 65vh;
+    }
+
+    .hero-copy {
+      width: 100%;
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-actions,
+    .hero-meta {
+      justify-content: center;
+    }
+
+    .project-footer {
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        min-height: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -26,7 +57,9 @@
       <a href="#contacto">Contacto</a>
     </div>
 
-    <button class="menu" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <button class="menu" aria-label="Abrir menú" aria-expanded="false">
+      ☰
+    </button>
   </nav>
 </header>
 
@@ -35,25 +68,36 @@
   <!-- INICIO -->
   <section class="hero wrap" id="inicio">
     <div class="hero-copy">
+
       <div class="eyebrow">
         <span class="dot"></span>
         PORTAFOLIO DE EVIDENCIAS · 2026
       </div>
 
       <p class="intro">Hola, soy</p>
-      <h1 id="fullName">Erick David Pérez Lozano</h1>
-      <h2>Desarrollador de <span>Software</span></h2>
+
+      <h1 id="fullName">Erick David Perez Lozano</h1>
+
+      <h2>
+        Desarrollador de <span>Software</span>
+      </h2>
 
       <p class="hero-desc">
-        Creo soluciones digitales que combinan desarrollo web,
-        aplicaciones y experiencias interactivas. Aquí presento
-        una selección de mis proyectos, herramientas y conocimientos.
+        Soy estudiante de Ingeniería en Gestión y Desarrollo de Software
+        en la Universidad Tecnológica Fidel Velázquez.
+        Me interesa el desarrollo de aplicaciones web, sistemas
+        informáticos y videojuegos.
+
+        En este portafolio presento mis conocimientos,
+        tecnologías y proyectos desarrollados durante
+        mi formación académica.
       </p>
 
       <div class="hero-actions">
         <a class="btn primary" href="#proyectos">
           Ver mis proyectos <span>↗</span>
         </a>
+
         <a class="btn secondary" href="#contacto">
           Contactarme
         </a>
@@ -64,27 +108,7 @@
         <span>✦ Aplicaciones</span>
         <span>✦ Videojuegos</span>
       </div>
-    </div>
 
-    <div class="portrait-side">
-      <div class="portrait-glow"></div>
-
-      <div class="portrait-frame">
-        <img
-          id="photo"
-          src="assets/foto-placeholder.svg"
-          alt="Fotografía de perfil de Erick David Pérez Lozano"
-          loading="eager"
-        >
-      </div>
-
-      <div class="floating-card">
-        <span>✧</span>
-        <div>
-          <strong>Creando experiencias</strong>
-          <small>Del concepto a la implementación</small>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -98,6 +122,7 @@
       </div>
 
       <div class="about-grid">
+
         <div>
           <p class="lead">
             Me interesa transformar ideas en productos digitales
@@ -105,12 +130,15 @@
           </p>
 
           <p>
-            Soy estudiante y desarrollador de software con experiencia
-            práctica en proyectos académicos y de desarrollo que
-            incluyen sitios web, aplicaciones web progresivas y
-            videojuegos 3D. Disfruto aprender nuevas tecnologías
-            y resolver problemas técnicos durante cada etapa
-            de un proyecto.
+            Soy estudiante de Ingeniería en Gestión y Desarrollo
+            de Software en la Universidad Tecnológica Fidel
+            Velázquez, con experiencia práctica en proyectos
+            académicos relacionados con el desarrollo web,
+            aplicaciones web progresivas y videojuegos.
+
+            Me gusta aprender nuevas tecnologías, resolver
+            problemas y desarrollar soluciones digitales
+            que respondan a necesidades reales.
           </p>
         </div>
 
@@ -119,28 +147,37 @@
 
           <div class="info-row">
             <span>Nombre</span>
-            <strong id="infoName"></strong>
+            <strong id="infoName">
+              Erick David Perez Lozano
+            </strong>
           </div>
 
           <div class="info-row">
             <span>Ubicación</span>
-            <strong id="location"></strong>
+            <strong id="location">
+              Estado de México, México
+            </strong>
           </div>
 
           <div class="info-row">
             <span>Estudios</span>
-            <strong id="studies"></strong>
+            <strong id="studies">
+              Ingeniería en Gestión y Desarrollo de Software
+            </strong>
           </div>
 
           <div class="info-row">
             <span>Institución</span>
-            <strong id="school"></strong>
+            <strong id="school">
+              Universidad Tecnológica Fidel Velázquez
+            </strong>
           </div>
 
           <div class="info-row">
             <span>Área de interés</span>
             <strong>Desarrollo de software y web</strong>
           </div>
+
         </div>
       </div>
     </div>
@@ -153,7 +190,10 @@
       <div class="section-head">
         <span class="kicker">02 / CONOCIMIENTOS</span>
         <h2>Tecnologías y herramientas</h2>
-        <p>Herramientas utilizadas en mis proyectos y áreas de formación.</p>
+        <p>
+          Herramientas utilizadas en mis proyectos
+          y áreas de formación.
+        </p>
       </div>
 
       <div class="skills-grid">
@@ -180,6 +220,7 @@
             <span>GitHub</span>
             <span>Visual Studio Code</span>
             <span>Blender</span>
+            <span>Firebase</span>
           </div>
         </article>
 
@@ -193,8 +234,8 @@
           </div>
 
           <p class="skill-note">
-            Bases de datos utilizadas en entornos de desarrollo web
-            y administración de contenido con WordPress.
+            Tecnologías de bases de datos presentes en
+            entornos de desarrollo web y WordPress.
           </p>
         </article>
 
@@ -208,6 +249,7 @@
             <span>UI/UX</span>
             <span>Desarrollo de videojuegos</span>
             <span>Pruebas funcionales</span>
+            <span>Desarrollo web</span>
           </div>
         </article>
 
@@ -225,7 +267,7 @@
 
         <p>
           Tres proyectos desarrollados como parte
-          de mi formación y práctica profesional.
+          de mi formación académica y práctica profesional.
         </p>
       </div>
 
@@ -237,7 +279,9 @@
           <div class="project-art art-unity">
             <div class="art-top">01 / VIDEOJUEGO</div>
             <div class="art-symbol">🎮</div>
-            <div class="art-bottom">EL COLAPSO DEL COLOR</div>
+            <div class="art-bottom">
+              EL COLAPSO DEL COLOR
+            </div>
           </div>
 
           <div class="project-body">
@@ -285,10 +329,13 @@
             <h3>Sitio institucional C3R México</h3>
 
             <p>
-              Sitio web informativo para una organización
-              dedicada al reciclaje. Incluye secciones
-              institucionales, servicios, materiales,
-              formularios de contacto y pruebas de usabilidad.
+              Sitio web informativo desarrollado para
+              una organización dedicada al reciclaje.
+
+              Incluye secciones institucionales,
+              servicios, materiales, formularios
+              de contacto y diseño adaptable
+              a dispositivos móviles.
             </p>
 
             <div class="project-footer">
@@ -322,10 +369,14 @@
             <h3>Agenda Escolar PWA</h3>
 
             <p>
-              Aplicación web progresiva orientada a la
-              organización escolar, con enfoque en la
-              experiencia desde dispositivos móviles,
-              su instalación y las pruebas de funcionamiento.
+              Aplicación web progresiva orientada
+              a la organización escolar.
+
+              Está diseñada para facilitar el acceso
+              desde dispositivos móviles y cuenta
+              con características propias de las PWA,
+              como instalación y adaptación
+              a diferentes pantallas.
             </p>
 
             <div class="project-footer">
@@ -356,18 +407,11 @@
         <h2>¿Trabajamos en una idea?</h2>
 
         <p>
-          Estoy abierto a aprender, colaborar y continuar
-          desarrollando soluciones digitales.
+          Estoy abierto a aprender, colaborar
+          y continuar desarrollando soluciones digitales.
         </p>
 
         <div class="contact-actions">
-          <a
-            class="btn primary"
-            id="emailLink"
-            href="mailto:"
-          >
-            Enviar correo ↗
-          </a>
 
           <a
             class="btn secondary"
@@ -378,9 +422,9 @@
           >
             Mi GitHub ↗
           </a>
+
         </div>
 
-        <p class="contact-small" id="contactEmail"></p>
       </div>
     </div>
   </section>
@@ -390,17 +434,55 @@
 <footer class="footer">
   <div class="wrap footer-inner">
     <span>
-      © <span id="year"></span>
-      <span id="footerName"></span>.
+      © <span id="year">2026</span>
+      Erick David Perez Lozano.
       Portafolio de evidencias.
     </span>
 
-    <span>Diseñado con HTML, CSS y JavaScript.</span>
+    <span>
+      Diseñado con HTML, CSS y JavaScript.
+    </span>
   </div>
 </footer>
 
 <script src="config.js"></script>
 <script src="script.js"></script>
+
+<script>
+  /*
+   * Datos definitivos.
+   * Se aplican después de cargar los archivos existentes.
+   * Así no se muestran los datos anteriores de config.js.
+   */
+  const datosActualizados = {
+    fullName: "Erick David Perez Lozano",
+    infoName: "Erick David Perez Lozano",
+    location: "Estado de México, México",
+    studies: "Ingeniería en Gestión y Desarrollo de Software",
+    school: "Universidad Tecnológica Fidel Velázquez"
+  };
+
+  Object.entries(datosActualizados).forEach(([id, valor]) => {
+    const elemento = document.getElementById(id);
+    if (elemento) elemento.textContent = valor;
+  });
+
+  const enlaces = {
+    project1: "https://erickpe00.itch.io/el-colapso-del-color",
+    project2: "https://c3rmexico.mx/",
+    project3: "https://agendap-a29e6.web.app/",
+    githubLink: "https://github.com/ErickPe00"
+  };
+
+  Object.entries(enlaces).forEach(([id, url]) => {
+    const elemento = document.getElementById(id);
+    if (elemento) {
+      elemento.href = url;
+      elemento.target = "_blank";
+      elemento.rel = "noopener noreferrer";
+    }
+  });
+</script>
 
 </body>
 </html>
