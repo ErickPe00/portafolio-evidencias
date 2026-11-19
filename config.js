@@ -8,8 +8,8 @@ const PORTAFOLIO = {
   github: "", // ejemplo: "https://github.com/tu-usuario"
   fotografia: "assets/foto-placeholder.svg", // cambia por "assets/mi-foto.jpg" cuando agregues tu fotografía
   proyectos: [
-    "", // 1. URL real del repositorio de El Colapso del Color
-    "", // 2. URL real del sitio de C3R México o su repositorio
-    ""  // 3. URL real del repositorio de Agenda Escolar PWA
+    "", https://erickpe00.itch.io/el-colapso-del-color
+    "", https://c3rmexico.mx/
+    ""  https://agendap-a29e6.web.app/
   ]
 };
