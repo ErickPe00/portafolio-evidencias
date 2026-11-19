@@ -1,4 +1,4 @@
-D
+
 
 const PORTAFOLIO = {
   nombre: "Erick David Pérez Lozano",
