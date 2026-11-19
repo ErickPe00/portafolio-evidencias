@@ -1,11 +1,406 @@
+
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b1020"><meta name="description" content="Portafolio de desarrollo de software, proyectos y tecnologías."><title>Portafolio | Desarrollo de Software</title><link rel="stylesheet" href="styles.css"></head>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portafolio de Erick David Pérez Lozano. Desarrollo de software, sitios web, aplicaciones y videojuegos.">
+  <title>Erick David Pérez Lozano | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-<header class="site-header"><nav class="wrap nav" aria-label="Principal"><a class="brand" href="#inicio"><span class="brand-icon">&lt;/&gt;</span> <span id="brandName">Mi portafolio</span></a><div class="nav-links"><a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Tecnologías</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a></div><button class="menu" aria-label="Abrir menú" aria-expanded="false">☰</button></nav></header>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Principal">
+    <a class="brand" href="#inicio">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span id="brandName">Mi portafolio</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Tecnologías</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <button class="menu" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </nav>
+</header>
+
 <main>
-<section class="hero wrap" id="inicio"><div class="hero-copy"><div class="eyebrow"><span class="dot"></span> PORTAFOLIO DE EVIDENCIAS · 2026</div><p class="intro">Hola, soy</p><h1 id="fullName">Tu nombre completo</h1><h2>Desarrollador de <span>Software</span></h2><p class="hero-desc">Creo soluciones digitales que combinan desarrollo web, aplicaciones y experiencias interactivas. Aquí presento una selección de mis proyectos, herramientas y conocimientos.</p><div class="hero-actions"><a class="btn primary" href="#proyectos">Ver mis proyectos <span>↗</span></a><a class="btn secondary" href="#contacto">Contactarme</a></div><div class="hero-meta"><span>✦ Desarrollo web</span><span>✦ Aplicaciones</span><span>✦ Videojuegos</span></div></div><div class="portrait-side"><div class="portrait-glow"></div><div class="portrait-frame"><img id="photo" src="assets/foto-placeholder.svg" alt="Fotografía de perfil" loading="eager"></div><div class="floating-card"><span>✧</span><div><strong>Creando experiencias</strong><small>Del concepto a la implementación</small></div></div></div></section>
-<section class="section section-alt" id="sobre-mi"><div class="wrap"><div class="section-head"><span class="kicker">01 / PERFIL</span><h2>Sobre mí</h2></div><div class="about-grid"><div><p class="lead">Me interesa transformar ideas en productos digitales útiles, funcionales y atractivos.</p><p>Soy estudiante y desarrollador de software con experiencia práctica en proyectos académicos y de desarrollo que incluyen sitios web, aplicaciones web progresivas y videojuegos 3D. Disfruto aprender nuevas tecnologías y resolver problemas técnicos durante cada etapa de un proyecto.</p></div><div class="info-card"><h3>Datos personales y formación</h3><div class="info-row"><span>Nombre</span><strong id="infoName"></strong></div><div class="info-row"><span>Ubicación</span><strong id="location"></strong></div><div class="info-row"><span>Estudios</span><strong id="studies"></strong></div><div class="info-row"><span>Institución</span><strong id="school"></strong></div><div class="info-row"><span>Área de interés</span><strong>Desarrollo de software y web</strong></div></div></div></div></section>
-<section class="section" id="habilidades"><div class="wrap"><div class="section-head"><span class="kicker">02 / CONOCIMIENTOS</span><h2>Tecnologías y herramientas</h2><p>Herramientas utilizadas en mis proyectos y áreas de formación.</p></div><div class="skills-grid"><article class="skill-card"><div class="skill-icon">⌘</div><h3>Lenguajes</h3><div class="chips"><span>C#</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article><article class="skill-card"><div class="skill-icon">▣</div><h3>Plataformas y entornos</h3><div class="chips"><span>Unity 6</span><span>WordPress</span><span>GitHub</span><span>Visual Studio Code</span><span>Blender</span></div></article><article class="skill-card"><div class="skill-icon">▤</div><h3>Bases de datos</h3><div class="chips"><span>MySQL / MariaDB (entorno WordPress)</span></div><p class="skill-note">Agrega aquí otras bases de datos que hayas usado directamente.</p></article><article class="skill-card"><div class="skill-icon">◇</div><h3>Áreas de desarrollo</h3><div class="chips"><span>Diseño responsive</span><span>PWA</span><span>UI/UX</span><span>Desarrollo de videojuegos</span><span>Pruebas funcionales</span></div></article></div></div></section>
-<section class="section section-alt" id="proyectos"><div class="wrap"><div class="section-head"><span class="kicker">03 / EVIDENCIAS</span><h2>Proyectos destacados</h2><p>Tres proyectos desarrollados como parte de mi formación y práctica profesional.</p></div><div class="project-grid"><article class="project-card"><div class="project-art art-unity"><div class="art-top">01 / VIDEOJUEGO</div><div class="art-symbol">🎮</div><div class="art-bottom">EL COLAPSO DEL COLOR</div></div><div class="project-body"><div class="project-label">Unity · C# · Blender</div><h3>El Colapso del Color</h3><p>Videojuego de plataformas 2.5D desarrollado en Unity 6. Incluye control de personaje, físicas, enemigos con diferentes comportamientos, sistema de vidas, disparos y obstáculos.</p><div class="project-footer"><a id="project1" class="project-link" href="#contacto">Ver repositorio ↗</a><span class="project-state">En desarrollo</span></div></div></article><article class="project-card"><div class="project-art art-web"><div class="art-top">02 / SITIO WEB</div><div class="art-symbol">🌐</div><div class="art-bottom">C3R MÉXICO</div></div><div class="project-body"><div class="project-label">WordPress · CSS · Diseño responsive</div><h3>Sitio institucional C3R México</h3><p>Sitio web informativo para una organización dedicada al reciclaje. Contempla secciones institucionales, servicios, materiales, formularios de contacto y pruebas de usabilidad.</p><div class="project-footer"><a id="project2" class="project-link" href="#contacto">Ver proyecto ↗</a><span class="project-state">Proyecto web</span></div></div></article><article class="project-card"><div class="project-art art-pwa"><div class="art-top">03 / APLICACIÓN WEB</div><div class="art-symbol">📱</div><div class="art-bottom">AGENDA ESCOLAR</div></div><div class="project-body"><div class="project-label">PWA · JavaScript · HTML · CSS</div><h3>Agenda Escolar PWA</h3><p>Proyecto de aplicación web progresiva orientada a la organización escolar, con enfoque en la experiencia desde dispositivos móviles, su instalación y las pruebas de funcionamiento.</p><div class="project-footer"><a id="project3" class="project-link" href="#contacto">Ver repositorio ↗</a><span class="project-state">Proyecto académico</span></div></div></article></div><p class="project-hint" id="linksNotice">⚠ Antes de entregar: coloca los enlaces reales de los tres proyectos en el archivo config.js.</p></div></section>
-<section class="section" id="contacto"><div class="wrap"><div class="contact-panel"><span class="kicker">04 / CONTACTO</span><h2>¿Trabajamos en una idea?</h2><p>Estoy abierto a aprender, colaborar y continuar desarrollando soluciones digitales.</p><div class="contact-actions"><a class="btn primary" id="emailLink" href="mailto:">Enviar correo ↗</a><a class="btn secondary" id="githubLink" href="https://github.com/" target="_blank" rel="noopener noreferrer">Mi GitHub ↗</a></div><p class="contact-small" id="contactEmail"></p></div></div></section>
-</main><footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> <span id="footerName"></span>. Portafolio de evidencias.</span><span>Diseñado con HTML, CSS y JavaScript.</span></div></footer><script src="config.js"></script><script src="script.js"></script></body></html>
+
+  <!-- INICIO -->
+  <section class="hero wrap" id="inicio">
+    <div class="hero-copy">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        PORTAFOLIO DE EVIDENCIAS · 2026
+      </div>
+
+      <p class="intro">Hola, soy</p>
+      <h1 id="fullName">Erick David Pérez Lozano</h1>
+      <h2>Desarrollador de <span>Software</span></h2>
+
+      <p class="hero-desc">
+        Creo soluciones digitales que combinan desarrollo web,
+        aplicaciones y experiencias interactivas. Aquí presento
+        una selección de mis proyectos, herramientas y conocimientos.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#proyectos">
+          Ver mis proyectos <span>↗</span>
+        </a>
+        <a class="btn secondary" href="#contacto">
+          Contactarme
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <span>✦ Desarrollo web</span>
+        <span>✦ Aplicaciones</span>
+        <span>✦ Videojuegos</span>
+      </div>
+    </div>
+
+    <div class="portrait-side">
+      <div class="portrait-glow"></div>
+
+      <div class="portrait-frame">
+        <img
+          id="photo"
+          src="assets/foto-placeholder.svg"
+          alt="Fotografía de perfil de Erick David Pérez Lozano"
+          loading="eager"
+        >
+      </div>
+
+      <div class="floating-card">
+        <span>✧</span>
+        <div>
+          <strong>Creando experiencias</strong>
+          <small>Del concepto a la implementación</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section section-alt" id="sobre-mi">
+    <div class="wrap">
+
+      <div class="section-head">
+        <span class="kicker">01 / PERFIL</span>
+        <h2>Sobre mí</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p class="lead">
+            Me interesa transformar ideas en productos digitales
+            útiles, funcionales y atractivos.
+          </p>
+
+          <p>
+            Soy estudiante y desarrollador de software con experiencia
+            práctica en proyectos académicos y de desarrollo que
+            incluyen sitios web, aplicaciones web progresivas y
+            videojuegos 3D. Disfruto aprender nuevas tecnologías
+            y resolver problemas técnicos durante cada etapa
+            de un proyecto.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Datos personales y formación</h3>
+
+          <div class="info-row">
+            <span>Nombre</span>
+            <strong id="infoName"></strong>
+          </div>
+
+          <div class="info-row">
+            <span>Ubicación</span>
+            <strong id="location"></strong>
+          </div>
+
+          <div class="info-row">
+            <span>Estudios</span>
+            <strong id="studies"></strong>
+          </div>
+
+          <div class="info-row">
+            <span>Institución</span>
+            <strong id="school"></strong>
+          </div>
+
+          <div class="info-row">
+            <span>Área de interés</span>
+            <strong>Desarrollo de software y web</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGÍAS -->
+  <section class="section" id="habilidades">
+    <div class="wrap">
+
+      <div class="section-head">
+        <span class="kicker">02 / CONOCIMIENTOS</span>
+        <h2>Tecnologías y herramientas</h2>
+        <p>Herramientas utilizadas en mis proyectos y áreas de formación.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div>
+          <h3>Lenguajes</h3>
+
+          <div class="chips">
+            <span>C#</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">▣</div>
+          <h3>Plataformas y entornos</h3>
+
+          <div class="chips">
+            <span>Unity 6</span>
+            <span>WordPress</span>
+            <span>GitHub</span>
+            <span>Visual Studio Code</span>
+            <span>Blender</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">▤</div>
+          <h3>Bases de datos</h3>
+
+          <div class="chips">
+            <span>MySQL</span>
+            <span>MariaDB</span>
+          </div>
+
+          <p class="skill-note">
+            Bases de datos utilizadas en entornos de desarrollo web
+            y administración de contenido con WordPress.
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">◇</div>
+          <h3>Áreas de desarrollo</h3>
+
+          <div class="chips">
+            <span>Diseño responsive</span>
+            <span>PWA</span>
+            <span>UI/UX</span>
+            <span>Desarrollo de videojuegos</span>
+            <span>Pruebas funcionales</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section section-alt" id="proyectos">
+    <div class="wrap">
+
+      <div class="section-head">
+        <span class="kicker">03 / EVIDENCIAS</span>
+        <h2>Proyectos destacados</h2>
+
+        <p>
+          Tres proyectos desarrollados como parte
+          de mi formación y práctica profesional.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- PROYECTO 1 -->
+        <article class="project-card">
+
+          <div class="project-art art-unity">
+            <div class="art-top">01 / VIDEOJUEGO</div>
+            <div class="art-symbol">🎮</div>
+            <div class="art-bottom">EL COLAPSO DEL COLOR</div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-label">
+              Unity · C# · Blender
+            </div>
+
+            <h3>El Colapso del Color</h3>
+
+            <p>
+              Videojuego de plataformas 2.5D desarrollado
+              en Unity 6. Incluye control de personaje,
+              físicas, enemigos con diferentes comportamientos,
+              sistema de vidas, disparos y obstáculos.
+            </p>
+
+            <div class="project-footer">
+              <a
+                id="project1"
+                class="project-link"
+                href="https://erickpe00.itch.io/el-colapso-del-color"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver videojuego ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 2 -->
+        <article class="project-card">
+
+          <div class="project-art art-web">
+            <div class="art-top">02 / SITIO WEB</div>
+            <div class="art-symbol">🌐</div>
+            <div class="art-bottom">C3R MÉXICO</div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-label">
+              WordPress · CSS · Diseño responsive
+            </div>
+
+            <h3>Sitio institucional C3R México</h3>
+
+            <p>
+              Sitio web informativo para una organización
+              dedicada al reciclaje. Incluye secciones
+              institucionales, servicios, materiales,
+              formularios de contacto y pruebas de usabilidad.
+            </p>
+
+            <div class="project-footer">
+              <a
+                id="project2"
+                class="project-link"
+                href="https://c3rmexico.mx/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver sitio web ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 3 -->
+        <article class="project-card">
+
+          <div class="project-art art-pwa">
+            <div class="art-top">03 / APLICACIÓN WEB</div>
+            <div class="art-symbol">📱</div>
+            <div class="art-bottom">AGENDA ESCOLAR</div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-label">
+              PWA · JavaScript · HTML · CSS
+            </div>
+
+            <h3>Agenda Escolar PWA</h3>
+
+            <p>
+              Aplicación web progresiva orientada a la
+              organización escolar, con enfoque en la
+              experiencia desde dispositivos móviles,
+              su instalación y las pruebas de funcionamiento.
+            </p>
+
+            <div class="project-footer">
+              <a
+                id="project3"
+                class="project-link"
+                href="https://agendap-a29e6.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver aplicación ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="wrap">
+
+      <div class="contact-panel">
+        <span class="kicker">04 / CONTACTO</span>
+
+        <h2>¿Trabajamos en una idea?</h2>
+
+        <p>
+          Estoy abierto a aprender, colaborar y continuar
+          desarrollando soluciones digitales.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            class="btn primary"
+            id="emailLink"
+            href="mailto:"
+          >
+            Enviar correo ↗
+          </a>
+
+          <a
+            class="btn secondary"
+            id="githubLink"
+            href="https://github.com/ErickPe00"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mi GitHub ↗
+          </a>
+        </div>
+
+        <p class="contact-small" id="contactEmail"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>
+      © <span id="year"></span>
+      <span id="footerName"></span>.
+      Portafolio de evidencias.
+    </span>
+
+    <span>Diseñado con HTML, CSS y JavaScript.</span>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
